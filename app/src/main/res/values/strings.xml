@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SG Bus Buzz</string>
+
+    <!--For bottom navigation-->
+    <string name="nav_title_fav">Favourites</string>
+    <string name="nav_title_nearby">Nearby</string>
+    <string name="nav_title_guide">Guide</string>
+
+</resources>
