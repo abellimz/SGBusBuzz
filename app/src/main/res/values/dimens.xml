@@ -1,5 +1,17 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="heart_btn_margin">10dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_half_margin">8dp</dimen>
+    <dimen name="activity_quarter_margin">4dp</dimen>
+    <dimen name="height_status_bar">24dp</dimen>
+    <dimen name="height_nav_bar">48dp</dimen>
+    <dimen name="z_card">2dp</dimen>
+    <dimen name="font_size_normal">20sp</dimen>
+    <dimen name="font_size_hint">14sp</dimen>
+    <dimen name="bottom_bar_offset">100dp</dimen>
+    <dimen name="touch_raise">6dp</dimen>
+    <dimen name="toolbar_left_margin">24dp</dimen>
+    <dimen name="full_appbar_height">80dp</dimen>
 </resources>

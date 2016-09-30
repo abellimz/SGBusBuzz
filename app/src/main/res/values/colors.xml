@@ -2,9 +2,29 @@
 <resources>
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#D32F2F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorOverlay">#00000000</color>
+    <!--For fab-->
+    <color name="colorNormal">#2196F3</color>
+    <color name="colorPressed">#1e88e5</color>
+    <color name="colorRipple">#40808080</color>
     <!--Colors for bottom navigation-->
     <color name="colorFavourites">#F44336</color>
     <color name="colorNearby">#00796B</color>
     <color name="colorGuide">#607D8B</color>
+    <!--For bus stops recyclerview-->
+    <color name="colorHintText">#61000000</color>
+    <color name="colorHintTextWhite">#b2ffffff</color>
+    <color name="colorDivider">#0f000000</color>
+    <!--For awareness-->
+    <color name="colorBusBuzz">#2196F3</color>
+    <!--For timings-->
+    <color name="colorBusStopsBg">#455A64</color>
+    <color name="colorTimingText">#ffffff</color>
+    <color name="colorLowLoad">#76FF03</color>
+    <color name="colorMedLoad">#FFC107</color>
+    <color name="colorHighLoad">#F44336</color>
+    <!--For map markers-->
+    <color name="colorMyLocationMarker">#0D47A1</color>
+    <color name="colorBusStopMarker">#F44336</color>
 </resources>

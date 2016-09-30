@@ -6,4 +6,16 @@
     <string name="nav_title_nearby">Nearby</string>
     <string name="nav_title_guide">Guide</string>
 
+    <string name="message_undo_delete">Removed %1$s from Favourites</string>
+    <string name="message_awareness_not_deleted">Disable bus buzz before removing from favourite</string>
+    <string name="btn_text_undo">Undo</string>
+
+    <!--For shared element transitions-->
+    <string name="fab_map_transition">fabmaptransition</string>
+
+    <!--For map markers-->
+    <string name="map_current_location">You are here</string>
+    <string name="close">close</string>
+
+    <string name="fab_behavior">com.abellimz.sgbusbuzz.views.FloatingActionButtonBehavior</string>
 </resources>

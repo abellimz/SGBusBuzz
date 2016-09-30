@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_section_details_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/list_section_stop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_half_margin"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_normal" />
+
+        <TextView
+            android:id="@+id/list_section_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_section_stop_name"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorHintText"
+            android:textSize="@dimen/font_size_hint" />
+
+        <TextView
+            android:id="@+id/list_section_road_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_section_distance"
+            android:layout_marginBottom="@dimen/activity_half_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_quarter_margin"
+            android:textColor="@color/colorHintText"
+            android:textSize="@dimen/font_size_hint" />
+
+        <TextView
+            android:id="@+id/list_section_bus_stop_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/list_section_road_name"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toRightOf="@id/list_section_road_name"
+            android:textColor="@color/colorHintText"
+            android:textSize="@dimen/font_size_hint" />
+
+        <ImageView
+            android:id="@+id/list_section_fav_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/divider"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/heart_btn_margin"
+            android:layout_marginTop="@dimen/heart_btn_margin"
+            android:background="@drawable/btn_ripple_bg"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_heart_outline" />
+
+        <View
+            android:id="@id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/list_section_road_name"
+            android:background="@color/colorDivider" />
+
+        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+            android:id="@+id/list_section_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:indeterminate="true"
+            android:visibility="gone"
+            app:spb_color="@color/colorBusStopsBg"
+            app:spb_mirror_mode="true"
+            app:spb_progressiveStart_activated="true"
+            app:spb_progressiveStart_speed="2.0"
+            app:spb_progressiveStop_speed="3.4"
+            app:spb_reversed="true"
+            app:spb_sections_count="1"
+            app:spb_speed="3.0"
+            app:spb_stroke_separator_length="4dp"
+            app:spb_stroke_width="4dp" />
+
+        <LinearLayout
+            android:id="@+id/list_section_container_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:background="@color/colorBusStopsBg"
+            android:orientation="vertical"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+

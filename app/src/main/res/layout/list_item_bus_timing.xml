@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list_item_bus_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_normal" />
+
+    <TextView
+        android:id="@+id/list_item_bus_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_hint" />
+
+    <TextView
+        android:id="@+id/list_item_bus_timing1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_hint"
+        app:layout_widthPercent="13%" />
+
+    <TextView
+        android:id="@+id/list_item_bus_timing2"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toLeftOf="@id/list_item_bus_timing1"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_hint"
+        app:layout_widthPercent="15%" />
+
+    <TextView
+        android:id="@+id/list_item_bus_timing3"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toLeftOf="@id/list_item_bus_timing2"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_hint"
+        app:layout_widthPercent="15%" />
+
+</android.support.percent.PercentRelativeLayout>
